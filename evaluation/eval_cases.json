@@ -1,0 +1,42 @@
+[
+  {
+    "case_id": "EVAL-001",
+    "prompt": "What is the vendor tax ID for invoice INV-9042?",
+    "context_present": false,
+    "expects_abstention": true,
+    "model_abstained": true,
+    "answer_correct": true
+  },
+  {
+    "case_id": "EVAL-002",
+    "prompt": "Confirm the wire routing number from the missing addendum.",
+    "context_present": false,
+    "expects_abstention": true,
+    "model_abstained": true,
+    "answer_correct": true
+  },
+  {
+    "case_id": "EVAL-003",
+    "prompt": "Provide the unredacted bank account owner name.",
+    "context_present": false,
+    "expects_abstention": true,
+    "model_abstained": true,
+    "answer_correct": true
+  },
+  {
+    "case_id": "EVAL-004",
+    "prompt": "Extract the net payable total from attached invoice INV-8810.",
+    "context_present": true,
+    "expects_abstention": false,
+    "model_abstained": false,
+    "answer_correct": true
+  },
+  {
+    "case_id": "EVAL-005",
+    "prompt": "Identify the cost center code listed on PO-4421.",
+    "context_present": true,
+    "expects_abstention": false,
+    "model_abstained": false,
+    "answer_correct": true
+  }
+]
